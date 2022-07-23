@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Result</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/Question.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                  <img  class="LOGO" src="../images/Logo.png">
+                </div>
+            </nav>
+        </header>
+
+        <div id="row">
+          
+          
+        </div>
+
+        <div class="Button d-none">
+          <input id="Inp" type="number" max="10" min="0" style="display: none;" class="shadow form-control mb-4 p-4" >
+          <button class="btn btn-info shadow" id="Q-Next" onclick="next()" style="display: none;">التالي</button>
+          <button class="btn btn-info shadow" id="Q-Prev" onclick="prev()" style="display: none;">السابق</button>
+          <button class="btn btn-info shadow mb-2" id="Q-Exit" onclick="displayResult()" style="display: none; z-index: 0;">إظهار التقييم </button>
+          <select id="collage" class="btn btn-group btn-info">
+            <option value="القاهره">القاهره</option>
+            <option value="اسكندريه">اسكندريه</option>
+            <option value="المنصورة">المنصورة</option>
+            <option value="الامريكيه">الامريكيه</option>
+            <option value="عين شمس">عين شمس</option>
+            <option value="أسيوط">أسيوط</option>
+            <option value="الأكاديمية العربية للعلوم والتكنولوجيا">الأكاديمية العربية للعلوم والتكنولوجيا</option>
+            <option value="الأزهر">الأزهر</option>
+            <option value="قناة السويس">قناة السويس</option>
+            <option value="البريطانية">البريطانية</option>
+          </select>
+          <input type="text" placeholder="Set your name please!" id="Name" style="display: none;" class="btn btn-block btn-outline-info mb-2 mt-2">
+        </div>
+
+        <div id="result">
+          
+        </div>
+
+       <p class="count"> q1 1 of 10</p>
+        <footer>
+            <div>
+              <p>&copy; Copyright <span>Taqeem...</span> All Rights Reserved</p>
+            </div>
+            <div class="social-media-icon">
+              <a href="https://www.facebook.com/" target="_blank"><img src="../images/Facebook.png" width="35" height="35"></a>
+              <a href="https://www.gmail.com/" target="_blank"><img src="../images/Gamil.png" width="35" height="35"></a>
+              <a href="https://www.behance.net/" target="_blank"><img src="../images/Behance.png" width="35" height="35"></a>
+              <a href="https://www.twitter.com/" target="_blank"><img src="../images/Twitter.png" width="35" height="35"></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="../images/Insta.png" width="35" height="35"></a>
+            </div>
+          </footer>
+
+        <script src="../js/jquery-3.5.1.slim.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/html5shiv.min.js"></script>
+        <script src="../js/result.js"></script>
+    </body>
+</html>

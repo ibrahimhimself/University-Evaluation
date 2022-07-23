@@ -1,0 +1,122 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #1794ac;
+    position: relative;
+}
+
+nav
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.LOGO
+{
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+
+}
+
+.jumbotron
+{
+    position: relative;
+    width: 1150px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #f0f0f0;
+    direction: rtl;
+    text-align: right;
+}
+.count{
+    position: absolute;
+    top: 9px;
+    left:10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+/* .Exit-button
+{
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#Q-Exit
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+} */
+
+.Button
+{
+    width: 1150px;
+    margin: 10px auto;
+    padding:10px 25px;
+    
+    height: 150px;
+}
+
+#Q-Exit,#collage
+{
+    margin-left: 41%;
+    display: none;
+}
+
+#Q-Next
+{
+    float: right;
+}
+
+#Q-Prev
+{
+    float: left;
+}
+
+#Inp
+{
+    width: 1000px;
+    margin: auto;
+}
+
+#result
+{
+    width: 1150px;
+    margin:50px auto;
+}
+
+footer
+{
+    background-color: #1794ac;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    color: #f0f0f0;
+}
+
+footer span
+{
+    font-weight: bolder;
+    color: #a1d4e2;
+}
+.disabled{
+    background-color: #333;
+    color: #fff;
+    cursor: no-drop;
+}
+.progress{
+    height: 20vh;
+}

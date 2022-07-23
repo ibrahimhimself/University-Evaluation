@@ -1,0 +1,336 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.loading {
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #1794ac;
+animation-name: loading;
+animation-duration: 2s;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+@keyframes loading {
+0% {
+    opacity: 1;
+    z-index: 555555;
+}
+50% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+    z-index: 0;
+}
+}
+.spin {
+width: 50px;
+height: 50px;
+border: 0.7em solid white;
+border-right-color: transparent;
+border-radius: 50%;
+}
+.margin-0 {
+margin: 0;
+}
+.padding-0 {
+padding: 0;
+}
+.logo
+{
+    font-size: xx-large;
+    color: #f0f0f0;
+    margin-right: 50px;
+}
+.LOGO
+{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+.navbar-color
+{
+    background-color: #1794ac;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: #f0f0f0;
+}
+.button
+{
+    background-color: #1794ac;
+    color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    font-size: large;
+    line-height: normal;
+    padding: 5px 10px;
+}
+.button:hover
+{
+    background-color: #a1d4e2;
+    border: 1px solid #a1d4e2;
+    color: #1794ac;
+}
+.under-navbar
+{
+    width: 1140px;
+    height: 350px;
+    margin: auto;
+    background-color: #1794ac;
+}
+.under-navbar-image
+{
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+.under-navbar p
+{
+    z-index: 5;
+    position: relative;
+    color: #f0f0f0;
+    font-size: 36px;
+    font-weight: bolder;
+    bottom: 200px;
+    left: 50px;
+    font-family: 'Assaf Font';
+}
+.under-navbar span
+{
+    font-size: 50px;
+}
+.under-navbar form
+{
+    z-index: 6;
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+}
+.under-navbar input:first-of-type
+{
+    width: 900px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid #1794ac;
+    background-color: #f0f0f0;
+    font-size: 18px;
+    padding-left: 20px;
+    color: #1794ac;
+    outline: none;
+}
+.under-navbar input:last-of-type
+{
+    width: 125px;
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid #1794ac;
+    font-size: 24px;
+    outline: none;
+    font-weight: bolder;
+    background-color: #a1d4e2;
+    color: #f0f0f0;
+}
+.under-navbar input:last-of-type:hover
+{
+    background-color: #f0f0f0;
+    color: #1794ac;
+}
+
+.jumbotron
+{
+    width: 1150px;
+    margin: auto;
+    margin-top: 25px;
+    direction: rtl;
+    text-align: right;
+    background-color: #f0f0f0;
+}
+
+article
+{
+    width: 1150px;
+    height: 620px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #f0f0f0;
+    overflow: hidden;   
+}
+
+article button
+{
+    font-size: 24px;
+    padding:0 25px 5px 25px;
+    background-color: #f0f0f0;
+    color: #1794ac;
+    border:1px solid #f0f0f0 ;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-decoration: none;
+}
+article button:hover
+{
+    background-color: #1794ac;
+    color: #f0f0f0;
+    border:1px solid #1794ac
+}
+
+.join-us
+{
+    width: 1150px;
+    margin: auto;
+    margin-top: 25px;
+}
+.join-us button
+{
+    position: relative;
+    bottom: 75px;
+    left: 50px;
+    font-size: 30px;
+    padding:0 25px 5px 25px;
+    background-color: #a1d4e2;
+    color: #1794ac;
+    border:1px solid #a1d4e2 ;
+    font-weight: bolder;
+}
+
+.join-us button:hover
+{
+    background-color: #f0f0f0;
+    color: #a1d4e2;
+}
+
+.our-team-parent
+{
+    width: 1150px;
+    background-color: #f0f0f0;
+    margin: auto;
+}
+
+.our-team-parent h1
+{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1794ac;
+}
+
+.our-team
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.our-team div
+{
+    flex-basis:0 ;
+}
+
+.our-team h3
+{
+    background-color: #1794ac;
+    color: #f0f0f0;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 8px;
+    height: 100px;
+    width: 350px;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+
+.our-team span
+{
+    font-size: 24px;
+}
+
+.our-team h3:hover
+{
+    transition: all 2s ease-in-out;
+    height: 375px;
+    opacity: .9;
+}
+
+.Call-Back h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin: 150px 25px 25px 25px;
+}
+
+.Call-Back form
+{
+    background-color: #a1d4e2;
+    width: 1150px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 20px 0;
+}
+
+.Call-Back form input 
+{
+    width: 550px;
+    height: 60px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.Call-Back form textarea
+{
+    width: 1130px;
+    height: 150px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.Call-Back form button
+{
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+footer
+{
+    background-color: #1794ac;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    color: #f0f0f0;
+}
+
+footer span
+{
+    font-weight: bolder;
+    color: #a1d4e2;
+}
+.universty
+{
+    text-decoration: none;
+}
+.universty :hover
+{
+    color: antiquewhite;
+}
